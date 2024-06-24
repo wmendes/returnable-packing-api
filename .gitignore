@@ -1,40 +1,30 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.swp
+# Prisma
+/prisma/.env
+/prisma/.env.*
+/prisma/*.db
+/prisma/migrations/
 
-pids
-logs
-results
-tmp
+# Node.js
+/node_modules/
 
-# Build
-public/css/main.css
+# TypeScript
+/dist/
+/tsconfig.tsbuildinfo
 
-# Coverage reports
-coverage
+# Editor/IDE
+/.vscode/
+/.idea/
 
-# API keys and secrets
-.env
+# Logs
+/logs/
 
-# Dependency directory
-node_modules
-bower_components
+# Build output
+/build/
 
-# Editors
-.idea
-*.iml
-
-# OS metadata
+# Miscellaneous
 .DS_Store
-Thumbs.db
-
-# Ignore built ts files
-dist/**/*
-
-package-lock.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
